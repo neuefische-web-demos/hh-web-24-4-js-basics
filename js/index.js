@@ -13,8 +13,6 @@ const title = document.querySelector('[data-js="title"]');
 console.log(title);
 
 title.textContent = "Hello World";
-title.classList;
-title.addEventListener;
 
 // Actions on our website (i.e. by users) are called events
 
@@ -26,7 +24,6 @@ title.addEventListener("click", function () {
 const bodyElement = document.querySelector("[data-js=body]");
 const darkModeButton = document.querySelector("[data-js=dark-mode-button]");
 const lightModeButton = document.querySelector("[data-js=light-mode-button]");
-console.log(lightModeButton, "second");
 const toggleButton = document.querySelector("[data-js=toggle-mode-button]");
 
 darkModeButton.addEventListener("click", () => {
