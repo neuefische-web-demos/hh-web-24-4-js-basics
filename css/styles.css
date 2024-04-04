@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  padding-inline: 80px;
+  padding-top: 64px;
+  transition: 0.2s ease-out;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 650px;
+}
+
+.dark {
+  background-color: rgb(13, 12, 18);
+  color: #b9bccc;
+}
+
+.toggle-button {
+  padding: 8px 12px;
+}
+
+[data-js="title"] {
+  color: red;
+}
